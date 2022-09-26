@@ -1,0 +1,226 @@
+%-------------------------
+% Resume in Latex
+% Author : Bhavleen Datla
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Bhavleen Datla} \\ \vspace{1pt}
+    \small 647-648-2828 $|$ \href{mailto:Bhavleen_10@hotmail.com}{\color{Blue}{Bhavleen\_10@hotmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/bhavleen-datla-18a494200/}{\color{Blue}{linkedin.com/in/bhavleen-datla-18a494200/}} $|$
+    \href{https://github.com/BhavleenD}{\color{Blue}{github.com/BhavleenD}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {McMaster University}{Hamilton, ON}
+      {Bachelor of Computer Engineering \& Management}{September 2020 -- May 2025}
+    \resumeSubheading
+      {Mississauga Secondary School}{Mississauga, ON}
+      {Highschool Diploma}{September 2016 -- June 2020}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Controls and Automation Engineer Co-Op}{May 2022 -- August 2022}
+      {Canada Post Corporation}{Mississauga, ON}
+      \resumeItemListStart
+        \resumeItem{Implemented and troubleshot control vision systems such as IFM's 3D camera using the vendor’s vision assistant software, then recalibrated the IFM camera back to proper functionality and prepared a standardized procedure to mitigate future downtime}
+        \resumeItem{Created multiple SICK vision system backups for future controller breakdowns and created a regional procedure for the maintenance department to install the MSC800 controllers}
+        \resumeItem{Lead a design project using SQL server queries, scripts, and pivot tables in Microsoft Excel to automatically monitor and troubleshoot the ISPS sorter system}
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {Process Engineer Co-op}{May 2021 -- August 2021}
+      {Canada Post Corporation}{Hamilton, ON}
+      \resumeItemListStart
+        \resumeItem{Applied the principles of Lean, Six Sigma, Change Management and Process Management in problem solving and continuous improvement activities and documenting solutions in accordance with these principles}
+        \resumeItem{Provided technical, business and problem analysis to support engineering optimization projects and participate in the implementations with the aid of AutoCAD}
+        \resumeItem{Analyzed, planned, lead, and deployed projects approved by operations regionally or nationally}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Electrical Technician}{September 2019 -- May 2021}
+      {Frequency Entertainment}{Mississauga, ON}
+      \resumeItemListStart
+        \resumeItem{Managed the in-house electrical system at Apollo Convention Centre}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Automated Recycling Robot}  \emph{}}{January 2022 - February 2022}
+          \resumeItemListStart
+             \resumeItem{Worked with a team of junior engineering students on a system for sorting and recycling containers of varying materials}\resumeItem{managed to write a code that successfully classified containers using data from the virtual environment on Quanser Labs, analyzed the recyclable material for contamination, and transferred the material to the correct bin for recycling}
+
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Medical Device for Hamilton Resident}  \emph{}}{March 2021 -- May 2021}
+          \resumeItemListStart
+            \resumeItem{Designed a cartesian system device that would stabilize and support a lymphedema patients dominant arm while still giving them mobility to paint}
+            \resumeItem{Design finished top 15\% in an engineering class of 1000+ students }
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+
+      
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{:Python, C/C++, SQL, R, HTML/CSS, MATLAB, AutoCAD, LaTeX} \\
+     \textbf{Frameworks}{: React, Node.js, SCRUM} \\
+     \textbf{Developer Tools}{: Git, Google Cloud Platform, VS Code, Visual Studio, PyCharm, Eclipse} \\
+     \textbf{Libraries}{: pandas, NumPy}
+    }}
+ \end{itemize}
+ 
+\section{Awards}
+
+      \resumeProjectHeading
+          {\textbf{Ontario Soccer Association} }{2017}
+          \resumeItemListStart
+            \resumeItem{Ontario Cup Finalist}
+          \resumeItemListEnd
+          
+      \resumeProjectHeading
+          {\textbf{McMaster} }{2021, 2022}
+          \resumeItemListStart
+            \resumeItem{Dean's Honour List}
+            \resumeItem{Golden Key International Honour}
+          \resumeItemListEnd
+
+            
+          
+          
+
+%-------------------------------------------
+\end{document}
